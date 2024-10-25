@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Chess';
+    src: url('https://fonts.cdnfonts.com/css/chess-7') format('woff2');
+  }
+}
+
+.font-chess {
+  font-family: 'Chess', ui-sans-serif, system-ui, -apple-system;
+}
